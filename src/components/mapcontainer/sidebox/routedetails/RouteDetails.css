@@ -1,0 +1,163 @@
+.Route-Details-Container{
+    position: relative;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.Closed{
+    height: 100px;
+}
+.Opened{
+    height: 300px;
+}
+
+.Hidden{
+    z-index: -10;
+}
+
+.Highlighted{
+    border: 2px solid #1A73E8;
+}
+
+.Car{
+    position: absolute;
+    top: 20px;
+    left: 17px;
+    width: 20px;
+    height: 20px;
+    fill: #585858;
+}
+
+.Text{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Summary{
+    font-size: 15px;
+    width: 220px;
+    height: 15px;
+    top: 20px;
+    left: 47px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.Time{
+    font-size: 15px;
+    width: 273px;
+    height: 15px;
+    top: 20px;
+    left: 117px;
+    text-align: right;
+    font-weight: 600;
+    color: #188038;
+}
+
+.Warning-Sign{
+    position: absolute;
+    top: 47px;
+    left: 47px;
+    width: 13px;
+    height: 13px;
+}
+
+.Warning{
+    font-size: 13px;
+    width: 223px;
+    height: 13px;
+    top: 45px;
+    left: 67px;
+    text-align: left;
+    color: #B06000;
+}
+
+.Normal{
+    font-size: 13px;
+    width: 223px;
+    height: 13px;
+    top: 45px;
+    left: 48px;
+    text-align: left;
+    color: #585858;
+}
+
+.Miles{
+    font-size: 13px;
+    width: 90px;
+    height: 13px;
+    top: 45px;
+    left: 300px;
+    text-align: right;
+    color: #4F4F4F;
+}
+
+.Details{
+    font-size: 12px;
+    width: 195px;
+    height: 12px;
+    font-weight: 400;
+    color: #1A73E8;
+    user-select: none;
+    text-align: left;
+}
+
+.Details-Container{
+    position: absolute;
+    top: 68px;
+    left: 48px;
+    width: 195px;
+    height: 12px;
+}
+
+.Temperature{
+    margin: 0px;
+    position: absolute;
+    top: 90px;
+    left: 48px;
+    width: 105px;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 48px;
+    color: #4F4F4F;
+}
+
+.Weather-Header{
+    margin: 0px;
+    position: absolute;
+    width: 150px;
+    height: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #4F4F4F;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.Weather-Info{
+    margin: 0px;
+    position: absolute;
+    width: 105px;
+    height: 12px;
+    font-size: 14px;
+    color: #4F4F4F;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.Instructions{
+    margin: 0px;
+    position: absolute;
+    bottom: 15px;
+    width: 360px;
+    height: 12px;
+    font-size: 12px;
+    color: #4F4F4F;
+    text-align: center;
+    vertical-align: middle;
+}

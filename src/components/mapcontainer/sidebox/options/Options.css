@@ -1,0 +1,45 @@
+.Options-Container{
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background-color: #185ABC;
+}
+
+.Depart{
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    width: 102px;
+    height: 14px;
+    top: 14px;
+    left: 15px;
+    margin: 0px;
+    border: none;
+    text-align: left;
+}
+
+.Date-Picker{
+    position: absolute;
+    top: 39px;
+    left: 15px;
+    background: white;
+}
+
+.Checkbox{
+    position: absolute;
+    left: 290px;
+    margin: 0px;
+}
+
+.Avoid{
+    position: absolute;
+    left: 307px;
+    color: white;
+    text-align: left;
+    font-size: 12px;
+    width: 100px;
+    height: 12px;
+    margin: 0px;
+    vertical-align: middle;
+}
+
